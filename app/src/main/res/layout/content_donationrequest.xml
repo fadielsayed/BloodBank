@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".mainUIPK.DonationDetail.DonatordetailsActivity"
+    tools:showIn="@layout/activity_donationrequest"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:background="@color/colorPrimaryDark">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/name"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="9dp"
+            android:hint="الاسم"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/birth"
+            android:padding="10dp"
+            android:layout_below="@+id/name"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:hint="العمر"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/blood_kind"
+            android:layout_below="@+id/birth"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:hint="فصيلة الدم"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/bugsRelative"
+            android:layout_below="@+id/blood_kind">
+
+            <EditText
+                android:hint="عدد الاكياس"
+                android:id="@+id/aquasText"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@color/colorAccent"
+                />
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/hospitalnametxt"
+            android:padding="10dp"
+            android:layout_below="@+id/bugsRelative"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:hint="اسم المستشفى"/>
+        <EditText
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/hospitalnametxt"
+            android:id="@+id/address2"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:hint="عنوان المستشفى"/>
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/relative5"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@+id/address2"
+            android:layout_below="@+id/hospitalnametxt">
+            <Button
+                android:id="@+id/hospitaladresseBT"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@mipmap/location" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/countryRelative"
+            android:layout_below="@+id/relative5">
+
+            <Spinner
+                android:id="@+id/spinnerCountry2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:hint="عدد الاكياس"
+                android:paddingRight="10dp"
+                android:layout_alignParentLeft="true"
+                android:spinnerMode="dropdown" />
+            <EditText
+                android:hint="المحافظه"
+                android:id="@+id/gouvernetID"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:singleLine="true"
+                android:layout_toRightOf="@+id/spinnerCountry2"
+                android:background="@color/colorAccent"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/cityRelative"
+            android:background="@color/colorAccent"
+            android:layout_below="@+id/countryRelative">
+
+            <Spinner
+                android:id="@+id/spinnerCity2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:spinnerMode="dropdown"
+                android:padding="10dp"/>
+            <EditText
+                android:hint="المدينه"
+                android:id="@+id/citytxtID"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/spinnerCity2"
+                android:background="@color/colorAccent"
+                />
+        </RelativeLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:layout_below="@+id/cityRelative"
+            android:id="@+id/phonetxt"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:hint="رقم الهاتف"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/notice"
+            android:padding="10dp"
+            android:layout_below="@+id/phonetxt"
+            android:gravity="top"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:hint="ملاحظات"/>
+        <Button
+            android:id="@+id/sendRequesBT"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="ارسال الطلب"
+            android:textStyle="bold"
+            android:onClick="postData"
+            android:layout_below="@+id/notice"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:textSize="16dp"
+            tools:ignore="OnClick" />
+
+    </RelativeLayout>
+
+</ScrollView>

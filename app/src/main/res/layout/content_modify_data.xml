@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:showIn="@layout/activity_modify_data"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".navigationScreens.ModifyUserDataPK.ModifyDataActivity"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="#f5f5f5"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="احمد محمد"
+        />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="5dp"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="NAME@name.com"
+        />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" 1990/1/27"
+        />
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" O+"
+        />
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="  الدقهليه"
+        />
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="  المنصوره"
+        />
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" 0122222222"
+        />
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="#f5f5f5"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint=" ............"
+        />
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="#f5f5f5"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="  .............."
+        />
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="  2018/9/20 "
+        />
+
+    <Button
+        android:id="@+id/donatRquest_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" تعديل"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimary"
+        />
+
+</LinearLayout>
+
+</ScrollView>

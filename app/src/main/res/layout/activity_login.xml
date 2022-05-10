@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background"
+    android:layout_height="match_parent"
+    tools:context=".registerPK.LoginActivity">
+
+    <ImageView
+        android:id="@+id/myLOgo"
+        android:layout_width="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:src="@mipmap/logo" />
+
+    <EditText
+        android:id="@+id/edittextPHONE"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f5f5"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="الجوال"
+        />
+
+    <EditText
+        android:id="@+id/edittextPASSWORD"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f5f5"
+        android:padding="15dp"
+        android:hint="كلمه المرور"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="هل نسيت كلمه المرور" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="127dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginEnd="259dp"
+            android:layout_marginRight="259dp"
+            android:src="@drawable/warnn" />
+
+        <CheckBox
+            android:layoutDirection="rtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:text="تذكرني"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp" />
+
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/loginButton_ID"
+        android:layout_width="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:text="دخول"
+        />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="29dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="انشاء حساب جديد"
+        android:textColor="@android:color/white" />
+
+
+
+</LinearLayout>

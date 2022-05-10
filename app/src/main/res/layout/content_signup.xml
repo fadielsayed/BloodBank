@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".registerPK.SignupActivity"
+    tools:showIn="@layout/activity_signup"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/editTextname"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="الاسم"
+        />
+
+    <EditText
+        android:id="@+id/editTextemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="5dp"
+        android:inputType="textPersonName"
+        android:hint="البريد الاكتروني" />
+
+    <EditText
+        android:id="@+id/editTextbirthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="5dp"
+        android:inputType="textPersonName"
+        android:hint="تاريخ الميلاد"
+        />
+
+    <EditText
+        android:id="@+id/editTextblood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#f5f5f5"
+        android:layout_marginBottom="5dp"
+        android:padding="15dp"
+        android:inputType="textPersonName"
+        android:hint="فصيله الدم" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="#f5f5f5"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/gouvernet_spinner"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:id="@+id/gouvernetTxt"
+            android:layout_width="match_parent"
+            android:hint="المحافظه"
+            android:background="#f5f5f5"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginRight="20dp"
+        android:background="#f5f5f5"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/cityspinner"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+
+        <EditText
+            android:id="@+id/cityTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="المدينه"
+            android:background="#f5f5f5"
+            android:inputType="textPersonName" />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <EditText
+        android:id="@+id/editTextphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:background="#f5f5f5"
+        android:padding="15dp"
+        android:layout_marginLeft="20dp"
+        android:hint="رقم الهاتف"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:background="#f5f5f5"
+        android:layout_marginLeft="20dp"
+        android:hint="كلمه المرور"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextconfirmpass"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:background="#f5f5f5"
+        android:padding="15dp"
+        android:hint="تأكيد كلمه المرور"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextlastdonation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:background="#f5f5f5"
+        android:padding="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:hint="اخر تاريخ للتبرع"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/signupButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="التسجيل"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
+
+</ScrollView>

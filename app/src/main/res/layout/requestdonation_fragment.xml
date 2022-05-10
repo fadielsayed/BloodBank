@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layoutDirection="ltr"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/search_Relative"
+            android:gravity="center"
+            android:background="@drawable/circle2">
+
+            <ImageButton
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:id="@+id/search_data"
+                android:clickable="true"
+                android:background="@mipmap/search"/>
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:weightSum="2"
+            android:layout_toRightOf="@+id/search">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/my_relative1"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:background="@drawable/customspinner"
+                android:layoutDirection="ltr"
+                android:layout_marginLeft="3dp"
+                android:layout_alignParentLeft="true">
+
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinnerCity_ID" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/my_relative2"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layoutDirection="ltr"
+                android:background="@drawable/customspinner"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/my_relative1">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinnerbloodsearch_ID" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/reqdonation_recycler"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

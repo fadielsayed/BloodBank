@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="disease_activity_article">
+        هذا النص هو مثال لتص يمكن ان يستبدل بنص في نقس المساحه لقد تم توليد هذا النص من مولد النص العربي
+    هذا النص هو مثال لتص يمكن ان يستبدل بنص في نقس المساحه لقد تم توليد هذا النص من مولد النص العربي
+        هذا النص هو مثال لتص يمكن ان يستبدل بنص في نقس المساحه لقد تم توليد هذا النص من مولد النص العربي
+        هذا النص هو مثال لتص يمكن ان يستبدل بنص في نقس المساحه لقد تم توليد هذا النص من مولد النص العربي
+        هذا النص هو مثال لتص يمكن ان يستبدل بنص في نقس المساحه لقد تم توليد هذا النص من مولد النص العربي
+
+
+        هذا النص هو مثال لتص يمكن ان يستبدل بنص في نقس المساحه لقد تم توليد هذا النص من مولد النص العربي
+        هذا النص هو مثال لتص يمكن ان يستبدل بنص في نقس المساحه لقد تم توليد هذا النص من مولد النص العربي
+        هذا النص هو مثال لتص يمكن ان يستبدل بنص في نقس المساحه لقد تم توليد هذا النص من مولد النص العربي
+        هذا النص هو مثال لتص يمكن ان يستبدل بنص في نقس المساحه لقد تم توليد هذا النص من مولد النص العربي
+
+    </string>
+
+    <string name="content_donator_detail">
+        هذا النص هو مثال لتص يمكن ان يستبدل بنص في نقس المساحه لقد تم توليد هذا النص من مولد النص العربي
+    هذا النص هو مثال لتص يمكن ان يستبدل بنص في نقس المساحه لقد تم توليد هذا النص من مولد النص العربي
+    </string>
+
+
+    <string name="title_activity_diseaseprevent">DiseasepreventActivity</string>
+    <string name="title_activity_donatordetails">DonatordetailsActivity</string>
+    <string name="title_activity_donationrequest">DonationrequestActivity</string>
+    <string name="title_activity_notify">NotifyActivity</string>
+    <string name="title_activity_modify_data">ModifyDataActivity</string>
+    <string name="title_activity_notif_sitting">NotifSittingActivity</string>
+    <string name="title_activity_favourit">FavouritActivity</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_callus">CallusActivity</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="title_activity_about_app">AboutAppActivity</string>
+    <string name="name">الدقهليه</string>
+</resources>

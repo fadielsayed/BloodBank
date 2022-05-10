@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fadii.bloodbank">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".splashPK.splash_Activity"
+            android:theme="@style/NoBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".viewpagerPK.MainActivity"
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".registerPK.LoginActivity"
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".registerPK.SignupActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mainUIPK.Article_Detail.DiseasepreventActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mainUIPK.DonationDetail.DonatordetailsActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mainUIPK.DonateRequestDetail.DonationrequestActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mainUIPK.NotifyPK.NotifyActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navigationScreens.ModifyUserDataPK.ModifyDataActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navigationScreens.NotifSittingActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navigationScreens.favoritePk.FavouritActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navigationScreens.ReportActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navigationScreens.CallUsPK.CallusActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".navigationScreens.NavigationDrawerActivity" />
+        <activity
+            android:name=".navigationScreens.AboutAppActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".navigationScreens.DashboardActivity"
+            android:label=""
+            ></activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBZcMc9CHZ2xXPoW4tQOAHVcCZ0xSOuQns "/>
+
+    </application>
+
+</manifest>

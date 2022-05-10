@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:App="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/info_menu_ID"
+        android:icon="@mipmap/info"
+        android:title="معلوماتي"
+        />
+    <item android:id="@+id/notify_settingmenu_ID"
+        android:icon="@drawable/notify"
+        android:title="اعدادات الاشعارات"/>
+
+    <item android:id="@+id/fav_menuID"
+        android:icon="@mipmap/love"
+        android:title="المفضله"/>
+    <item android:id="@+id/home_menuID"
+        android:icon="@mipmap/home"
+        android:title="الرئيسيه"/>
+
+    <item android:id="@+id/usesinfo_menuID"
+        android:icon="@mipmap/usesinfo"
+        android:title="تعليمات الاستخدام"/>
+
+    <item android:id="@+id/report_menuID"
+        android:icon="@mipmap/report"
+        android:title="ابلاغ"/>
+
+    <item android:id="@+id/contactus_menuID"
+        android:icon="@mipmap/message"
+        android:title="تواصل معنا "/>
+
+    <item android:id="@+id/aboutapp_menuID"
+    android:icon="@mipmap/aboutapp"
+    android:title="عن التطبيق"/>
+
+    <item android:id="@+id/taqueem_menu_ID"
+    android:icon="@mipmap/star"
+    android:title="تقييم التطبيق على المتجر"/>
+
+    <item android:id="@+id/signout_menu_ID"
+    android:icon="@mipmap/signup"
+    android:title="تسجيل الخروج"/>
+
+</menu>
